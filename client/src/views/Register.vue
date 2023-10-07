@@ -2,7 +2,11 @@
     <div class="register">
         <section class="form_container">
             <div class="manage_tip">
+<<<<<<< HEAD
                 <span class="title">WebGIS DEMO展示系统</span>
+=======
+                <span class="title">水污染监测系统</span>
+>>>>>>> bb3d1b7 (增加了大屏)
             </div>
             <el-form :model="registerUser" :rules="rules" class="registerForm" ref="registerForm" label-width="80px">
                 <el-form-item label="用户名" prop="name">
@@ -98,7 +102,11 @@ export default {
   position: relative;
   width: 100%;
   height: 100%;
+<<<<<<< HEAD
   background: url(../assets/bg.jpg) no-repeat center center;
+=======
+  background: url(../assets/bing.jpg) no-repeat center center;
+>>>>>>> bb3d1b7 (增加了大屏)
   background-size: 100% 100%;
 }
 .form_container {

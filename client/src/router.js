@@ -60,8 +60,12 @@ const router = new Router({
         {path: '/mapboxgl_gridmap', name: 'mapboxgl_gridmap', component: mapboxGL_GridLayerSence},
         {path: '/mapboxgl_hexagonmap', name: 'mapboxgl_hexagonmap', component: mapboxGL_HexagonLayer},
 
+<<<<<<< HEAD
         {path: '/home2', name: 'home2', component: Home2},
 
+=======
+       
+>>>>>>> bb3d1b7 (增加了大屏)
       ]
     },
     {
@@ -78,6 +82,14 @@ const router = new Router({
       path:'/login',
       name: 'login',
       component: Login
+<<<<<<< HEAD
+=======
+    },
+    {
+      path:'/home2',
+      name: 'home2',
+      component: Home2
+>>>>>>> bb3d1b7 (增加了大屏)
     }
   ]
 })

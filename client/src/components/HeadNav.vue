@@ -3,7 +3,11 @@
         <el-row>
             <el-col :span="6" class='logo-container'>
                 <img src="../assets/earth.png" class='logo' alt="">
+<<<<<<< HEAD
                 <span class='title'>  WebGIS 地图展示系统</span>
+=======
+                <span class='title'>   水污染监测系统</span>
+>>>>>>> bb3d1b7 (增加了大屏)
             </el-col>
             <el-col :span='6' class="user">
                 <div class="userinfo">

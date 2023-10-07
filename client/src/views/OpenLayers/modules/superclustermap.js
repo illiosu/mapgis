@@ -29,11 +29,22 @@ let features = []
 
 for (let i = 0; i < jsondata.length; i++) {
     features[i] = new Feature(new Point([parseFloat(jsondata[i].lng), parseFloat(jsondata[i].lat)]))
+<<<<<<< HEAD
     
     features[i].set('id', jsondata[i].area_code)
     features[i].set('name', jsondata[i].short_name)
 }
 
+=======
+    features[i].set('id', jsondata[i].area_code)
+    features[i].set('name', jsondata[i].short_name)
+}
+//xname:23 sname:7.43 aname:0.425 xname:0,689 rname:6.96 lname:0.0533
+const names = jsondata.map(obj => obj.name_1);
+const uniqueNamesSet = new Set(names)
+const uniqueName = Array.from(uniqueNamesSet)
+console.log(uniqueName);
+>>>>>>> bb3d1b7 (增加了大屏)
 let source = new VectorSource({
     features: features
 })

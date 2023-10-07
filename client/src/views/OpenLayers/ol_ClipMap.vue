@@ -15,21 +15,30 @@ import mapconfig from '../../config/olmapConfig'
 import superClusterMap from './modules/superclustermap'
 import { transform } from 'ol/proj'
 
+<<<<<<< HEAD
 import sxgeojson from '../../assets/data/xianyang.json'
+=======
+import qingdaojson from '../../assets/data/山东省.json'
+>>>>>>> bb3d1b7 (增加了大屏)
 
 export default {
 	data() {
 		return {
+<<<<<<< HEAD
 			map: null,
             view: null,
             superclusterLayer: null,
             proj: 'EPSG:4326', //定义wgs84地图坐标系
 			proj_m: 'EPSG:3857', //定义墨卡托地图坐标系
+=======
+			
+>>>>>>> bb3d1b7 (增加了大屏)
 		}
 	},
 	created() {},
 	mounted() {
         this.initMap() // 初始化地图，加载图层
+<<<<<<< HEAD
 		this.map.on('singleclick', function(e) {
 			let map = this
 			let zoom = map.getView().getZoom()
@@ -100,6 +109,34 @@ export default {
                 ctx.restore()
             })
         }
+=======
+	
+	},
+	methods: {
+		initMap: function() {
+            mapDocLayer = new Zondy.Map.MapDocTileLayer('MapGIS IGS MapDocLayer', '青岛市', {
+                ip: `localhost`,
+                port: `6163`,
+            })
+            mapDocLayer.setVisible(true)
+            // let mapcontainer = this.$refs.rootmap
+            // this.view = new View({
+            //     projection: 'EPSG:4326',
+            //     center: [mapconfig.x, mapconfig.y], 
+            //     zoom: mapconfig.zoom
+            // })
+            // this.map = new Map({
+            //     target: mapcontainer,
+            //     layers: [mapconfig.tilemap],
+            //     view: this.view
+            // })
+            // this.superclusterLayer = superClusterMap.clusterLayer()
+            // this.map.addLayer(this.superclusterLayer)
+        },
+        // clipMap: function(){
+          
+        // }
+>>>>>>> bb3d1b7 (增加了大屏)
 	}
 }
 </script>

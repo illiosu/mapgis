@@ -1,4 +1,8 @@
 <template>
+<<<<<<< HEAD
+=======
+
+>>>>>>> bb3d1b7 (增加了大屏)
     <div class="screen-container" >
       <header class="screen-header">
         <div>
@@ -7,7 +11,11 @@
           <img v-show="theme != 'chalk'" src="~@/assets/images/header_border_light.png" alt="" /> -->
         </div>
         <span class="logo"> <a  href="https://www.bookbook.cc" title="去bookbook.cc主站" target="_blank">bookbook.cc</a> </span>
+<<<<<<< HEAD
         <span class="title">电商平台实时监控系统</span>
+=======
+        <span class="title">水污染防治监测管控大屏</span>
+>>>>>>> bb3d1b7 (增加了大屏)
         <div class="title-right">
           <!-- <img :src="themeSrc" class="qiehuan" @click="handleChangeTheme" alt="切换主题" title="切换主题"> -->
           <!-- <img v-show="theme == 'chalk'" src="~@/assets/images/qiehuan_dark.png" class="qiehuan" @click="handleChangeTheme" alt="切换主题" title="切换主题" />
@@ -217,7 +225,11 @@
     width: 100%;
     height: 100%;
     padding: 0 20px;
+<<<<<<< HEAD
     background-color: #161522;
+=======
+    background-color: #fff;
+>>>>>>> bb3d1b7 (增加了大屏)
     color: #fff;
     box-sizing: border-box;
   }
@@ -233,6 +245,10 @@
     }
     .title {
       position: absolute;
+<<<<<<< HEAD
+=======
+      color: #000;
+>>>>>>> bb3d1b7 (增加了大屏)
       left: 50%;
       top: 50%;
       font-size: 20px;

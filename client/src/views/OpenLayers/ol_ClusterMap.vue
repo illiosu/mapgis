@@ -23,7 +23,12 @@ export default {
 		return {
 			map: null,
 			view: null,
+<<<<<<< HEAD
 // 			clustermapLayer: null
+=======
+			clustermapLayer: null,
+			// clustermap:null
+>>>>>>> bb3d1b7 (增加了大屏)
 		}
 	},
 	created() {},

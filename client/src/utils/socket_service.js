@@ -95,9 +95,15 @@ export default class SocketService {
   }
 
   // 取消某一个回调函数
+<<<<<<< HEAD
   unRegisterCallBack(socketType) {
     this.callBackMapping[socketType] = null
   }
+=======
+  // unRegisterCallBack(socketType) {
+  //   this.callBackMapping[socketType] = null
+  // }
+>>>>>>> bb3d1b7 (增加了大屏)
 
   // 发送数据的方法
   send(data) {

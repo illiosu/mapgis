@@ -14,7 +14,11 @@
     "core-js": "^2.6.5",
     "deck.gl": "^8.2.7",
     "echarts": "^5.4.3",
+<<<<<<< HEAD
     "element-ui": "^2.9.1",
+=======
+    "element-ui": "^2.15.14",
+>>>>>>> bb3d1b7 (增加了大屏)
     "esri-loader": "^2.9.2",
     "jwt-decode": "^2.2.0",
     "mapbox-gl": "^1.6.1",
